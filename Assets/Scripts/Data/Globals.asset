@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19ad308e7bb3b774e8e3659f8ae566e6, type: 3}
+  m_Name: Globals
+  m_EditorClassIdentifier: 
+  toolbarPrefab: {fileID: 8091031281142742742, guid: 5f22b7d2d8f92f8479d7d3cbde2144c8, type: 3}
+  messagePanelPrefab: {fileID: 4313818327920449725, guid: 8c5a2f575e7cac2498fdc3764c2074da, type: 3}
+  players:
+  - controlType: 0
+    name: User
+    army:
+    - type: 1
+      health: 5
+      weapon: 0
+      damage: 3
+      runSpeed: 6
+      distanceFromTarget: 1
+    - type: 1
+      health: 5
+      weapon: 1
+      damage: 2
+      runSpeed: 6
+      distanceFromTarget: 1
+    - type: 2
+      health: 3
+      weapon: 1
+      damage: 1
+      runSpeed: 6
+      distanceFromTarget: 1
+  - controlType: 1
+    name: Computer
+    army:
+    - type: 0
+      health: 4
+      weapon: 1
+      damage: 2
+      runSpeed: 6
+      distanceFromTarget: 1
+    - type: 0
+      health: 4
+      weapon: 1
+      damage: 2
+      runSpeed: 6
+      distanceFromTarget: 1
+    - type: 0
+      health: 4
+      weapon: 1
+      damage: 2
+      runSpeed: 6
+      distanceFromTarget: 1
